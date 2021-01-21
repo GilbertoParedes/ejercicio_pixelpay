@@ -18,4 +18,43 @@ Clone el repositorio con el siguiente comando
 
 6.- Poblar tablas con seeer a través se factories: php artisan db:seed
 
-## Pruebas de endpoinds cn postman
+## Pruebas de endpoinds con postman
+
+### Usuarios
+
+1.- Regístro: http://pixel.test/api/register (POST)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/register.png)
+
+2.- Logín, retorna toekn de autenticación: http://pixel.test/api/login (POST)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/login.png)
+
+3.- Logout, Destruye el token: http://pixel.test/api/logout (GET)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/logout.png)
+
+### Productos
+
+1.- Lista de productos: http://pixel.test/api/products (GET)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/lista_productos.png)
+
+2.- Guardar Producto: http://pixel.test/api/products (POST)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/agregar_productos.png)
+
+3.- Ver detalle Producto: http://pixel.test/api/products/1 (GET)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/informaci%C3%B3n_producto.png)
+
+4.- Actulizar Producto: http://pixel.test/api/products/1?nombre=toalla&precio=125.50&cantidad=13 (PUT)
+
+![ScreenShot] (https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/actualizar.png)
+
+5.- Eliminar: http://pixel.test/api/products/4 (DELETE)
+
+![ScreenShot](https://github.com/GilbertoParedes/ejercicio_pixelpay/blob/main/public/eliminar.png)
+
+
+
